@@ -1,5 +1,5 @@
-from django.urls import path, include
+# from django.urls import path, include
 
 # urlpatterns = [
-#     path('', include('account.apps.AccountConfig'))
+#     path('', )
 # ]
