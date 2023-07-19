@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "core-project"
+version = "0.1.0"
+description = ""
+authors = ["EvansRobbie <evansitoden94@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "core_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+environ = "^1.0"
+djoser = "^2.2.0"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
