@@ -35,7 +35,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 LOCAL_APPS = [
-    'accounts'
+    'account'
 ]
 
 DJANGO_APPS = [
@@ -48,8 +48,9 @@ DJANGO_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
+    "rest_framework_simplejwt",
     'rest_framework',
-    'djoser'
+    'djoser',
 ]
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY_APPS
 
@@ -82,6 +83,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'authSystem.wsgi.application'
+
+AUTH_USER_MODEL = 'account.UserAccount'
 
 
 # Database
