@@ -9,10 +9,14 @@ packages = [{include = "core_project"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-environ = "^1.0"
 djoser = "^2.2.0"
 djangorestframework = "^3.14.0"
 djangorestframework-simplejwt = "^5.2.2"
+django-environ = "^0.11.2"
+social-auth-app-django = "^5.3.0"
+django-cors-headers = "^4.2.0"
+docutils = "^0.20.1"
+coreapi = "^2.3.3"
 
 
 [build-system]
